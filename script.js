@@ -9,18 +9,18 @@ todos.forEach((todo) => {
 
 function dragStart() {
   draggableTodo = this;
-  setTimeout(() => {
-    this.style.display = "none";
-  }, 0);
-  console.log("dragStart");
+  //   setTimeout(() => {
+  //     this.style.display = "none";
+  //   }, 0);
+  //   console.log("dragStart");
 }
 
 function dragEnd() {
   draggableTodo = null;
-  setTimeout(() => {
-    this.style.display = "block";
-  }, 0);
-  console.log("dragEnd");
+  //   setTimeout(() => {
+  //     this.style.display = "block";
+  //   }, 0);
+  //   console.log("dragEnd");
 }
 
 all_status.forEach((status) => {
